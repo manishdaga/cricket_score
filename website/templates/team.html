@@ -1,0 +1,492 @@
+{% extends 'base.html' %}
+<!DOCTYPE html>
+{% load staticfiles%} 
+{% block content %}
+<div class="team">
+	<div id="accordion">
+	  <div class="card chennai">
+		<div class="card-header" id="headingOne">
+		  <h5 class="mb-0 text-center">
+			<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><img src="{% static 'img/team-logo/'  %}chennai_super_kings_logo.png" alt="" class="img-fluid">
+			  Chennai Super Kings <img src="{% static 'img/team-logo/'  %}chennai_super_kings_logo.png" alt="" class="img-fluid">
+			</button>
+		  </h5>
+		</div>
+
+		<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+		  <div class="card-body">
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="{% static 'img/team/dhoni.jpg'  %}">
+							<ul class="social-links">
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-google-plus"></a></li>
+								<li><a href="#" class="fa fa-facebook"></a></li>
+							</ul>
+						</div>
+						<div class="team-content">
+							<h3 class="title">MS Dhoni</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="{% static 'img/team/raina.jpg'  %}">
+							<ul class="social-links">
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-google-plus"></a></li>
+								<li><a href="#" class="fa fa-facebook"></a></li>
+							</ul>
+						</div>
+						<div class="team-content">
+							<h3 class="title">S Raina</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="{% static 'img/team/jadeja.jpg'  %}">
+							<ul class="social-links">
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-google-plus"></a></li>
+								<li><a href="#" class="fa fa-facebook"></a></li>
+							</ul>
+						</div>
+						<div class="team-content">
+							<h3 class="title">R jadeja</h3>
+						</div>
+					</div>
+				</div> 
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <div class="card delhi">
+		<div class="card-header" id="headingTwo">
+		  <h5 class="mb-0 text-center">
+			<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><img src="{% static 'img/team-logo/delhi_daredevils_logo.png'  %}" alt="" class="img-fluid">  
+			  Delhi Daredevils <img src="{% static 'img/team-logo/delhi_daredevils_logo.png'  %}" alt="" class="img-fluid">
+			</button>
+		  </h5>
+		</div>
+		<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+		  <div class="card-body">
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="{% static 'img/team/ghabhir.jpg'  %}">
+							<ul class="social-links">
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-google-plus"></a></li>
+								<li><a href="#" class="fa fa-facebook"></a></li>
+							</ul>
+						</div>
+						<div class="team-content">
+							<h3 class="title">G Gambhir</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="{% static 'img/team/shami.jpg'  %}">
+							<ul class="social-links">
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-google-plus"></a></li>
+								<li><a href="#" class="fa fa-facebook"></a></li>
+							</ul>
+						</div>
+						<div class="team-content">
+							<h3 class="title">M Shami</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="{% static 'img/team/morris.jpg'  %}">
+							<ul class="social-links">
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-google-plus"></a></li>
+								<li><a href="#" class="fa fa-facebook"></a></li>
+							</ul>
+						</div>
+						<div class="team-content">
+							<h3 class="title">C Morris</h3>
+						</div>
+					</div>
+				</div> 
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <div class="card punjab">
+		<div class="card-header" id="headingThree">
+		  <h5 class="mb-0 text-center">
+			<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><img src="{% static 'img/team-logo/kings_XI_punjab_logo.png'  %}" alt="" class="img-fluid">
+			  Kings XI Punjab <img src="{% static 'img/team-logo/kings_XI_punjab_logo.png'  %}" alt="" class="img-fluid">
+			</button>
+		  </h5>
+		</div>
+		<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+		  <div class="card-body">
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="{% static 'img/team/yuvaraj.jpg'  %}">
+							<ul class="social-links">
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-google-plus"></a></li>
+								<li><a href="#" class="fa fa-facebook"></a></li>
+							</ul>
+						</div>
+						<div class="team-content">
+							<h3 class="title">Yuvaraj Singh</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="{% static 'img/team/lokesh.jpg'  %}">
+							<ul class="social-links">
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-google-plus"></a></li>
+								<li><a href="#" class="fa fa-facebook"></a></li>
+							</ul>
+						</div>
+						<div class="team-content">
+							<h3 class="title">L Rahul</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="{% static 'img/team/gayle.jpg'  %}">
+							<ul class="social-links">
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-google-plus"></a></li>
+								<li><a href="#" class="fa fa-facebook"></a></li>
+							</ul>
+						</div>
+						<div class="team-content">
+							<h3 class="title">C Gayle</h3>
+						</div>
+					</div>
+				</div> 
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <div class="card kolkata">
+		<div class="card-header" id="headingFour">
+		  <h5 class="mb-0 text-center">
+			<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><img src="{% static 'img/team-logo/kolkata_night_logo.png'  %}" alt="" class="img-fluid"> 
+			  Kolkata Knight Riders <img src="{% static 'img/team-logo/kolkata_night_logo.png'  %}" alt="" class="img-fluid">
+			</button>
+		  </h5>
+		</div>
+		<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+		  <div class="card-body">
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="{% static 'img/team/kkr-1.jpg'  %}">
+							<ul class="social-links">
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-google-plus"></a></li>
+								<li><a href="#" class="fa fa-facebook"></a></li>
+							</ul>
+						</div>
+						<div class="team-content">
+							<h3 class="title">R Uthappa</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="{% static 'img/team/kkr-2.jpg'  %}">
+							<ul class="social-links">
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-google-plus"></a></li>
+								<li><a href="#" class="fa fa-facebook"></a></li>
+							</ul>
+						</div>
+						<div class="team-content">
+							<h3 class="title">C Lynn</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="{% static 'img/team/kkr-3.jpg'  %}">
+							<ul class="social-links">
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-google-plus"></a></li>
+								<li><a href="#" class="fa fa-facebook"></a></li>
+							</ul>
+						</div>
+						<div class="team-content">
+							<h3 class="title">S Narine</h3>
+						</div>
+					</div>
+				</div> 
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <div class="card mumbai">
+		<div class="card-header" id="headingFive">
+		  <h5 class="mb-0 text-center">
+			<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"><img src="{% static 'img/team-logo/mumbai_indians_logo.png'  %}" alt="" class="img-fluid"> 
+			  Mumbai Indians <img src="{% static 'img/team-logo/mumbai_indians_logo.png'  %}" alt="" class="img-fluid">
+			</button>
+		  </h5>
+		</div>
+		<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+		  <div class="card-body">
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="{% static 'img/team/mi-1.jpg'  %}">
+							<ul class="social-links">
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-google-plus"></a></li>
+								<li><a href="#" class="fa fa-facebook"></a></li>
+							</ul>
+						</div>
+						<div class="team-content">
+							<h3 class="title">H Pandya</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="{% static 'img/team/rohit.jpg'  %}">
+							<ul class="social-links">
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-google-plus"></a></li>
+								<li><a href="#" class="fa fa-facebook"></a></li>
+							</ul>
+						</div>
+						<div class="team-content">
+							<h3 class="title">R Sharma</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="{% static 'img/team/bhurah.jpg'  %}">
+							<ul class="social-links">
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-google-plus"></a></li>
+								<li><a href="#" class="fa fa-facebook"></a></li>
+							</ul>
+						</div>
+						<div class="team-content">
+							<h3 class="title">J Bhumrah</h3>
+						</div>
+					</div>
+				</div> 
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <div class="card rajasthan">
+		<div class="card-header" id="headingSix">
+		  <h5 class="mb-0 text-center">
+			<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"><img src="{% static 'img/team-logo/rajasthan_royals_logo.png'  %}" alt="" class="img-fluid"> 
+			  Rajasthan Royals <img src="{% static 'img/team-logo/rajasthan_royals_logo.png'  %}" alt="" class="img-fluid">
+			</button>
+		  </h5>
+		</div>
+		<div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+		  <div class="card-body">
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="{% static 'img/team/royal-chalenger.jpg'  %}">
+							<ul class="social-links">
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-google-plus"></a></li>
+								<li><a href="#" class="fa fa-facebook"></a></li>
+							</ul>
+						</div>
+						<div class="team-content">
+							<h3 class="title">S Binny</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="{% static 'img/team/rr-rahane.jpg'  %}">
+							<ul class="social-links">
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-google-plus"></a></li>
+								<li><a href="#" class="fa fa-facebook"></a></li>
+							</ul>
+						</div>
+						<div class="team-content">
+							<h3 class="title">A Rahane</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="{% static 'img/team/rr-ben-stoc.jpg'  %}">
+							<ul class="social-links">
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-google-plus"></a></li>
+								<li><a href="#" class="fa fa-facebook"></a></li>
+							</ul>
+						</div>
+						<div class="team-content">
+							<h3 class="title">B Stokes</h3>
+						</div>
+					</div>
+				</div> 
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <div class="card bangalore">
+		<div class="card-header" id="headingSeven">
+		  <h5 class="mb-0 text-center">
+			<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"><img src="{% static 'img/team-logo/royal_chalanger_logo.png'  %}" alt="" class="img-fluid"> 
+			  Royal Challengers Bangalore <img src="{% static 'img/team-logo/royal_chalanger_logo.png'  %}" alt="" class="img-fluid">
+			</button>
+		  </h5>
+		</div>
+		<div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+		  <div class="card-body">
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="{% static 'img/team/rcb-1.jpg'  %}">
+							<ul class="social-links">
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-google-plus"></a></li>
+								<li><a href="#" class="fa fa-facebook"></a></li>
+							</ul>
+						</div>
+						<div class="team-content">
+							<h3 class="title">P Negi</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="{% static 'img/team/rcb-parthiv-patel.jpg'  %}">
+							<ul class="social-links">
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-google-plus"></a></li>
+								<li><a href="#" class="fa fa-facebook"></a></li>
+							</ul>
+						</div>
+						<div class="team-content">
+							<h3 class="title">P Patel</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="{% static 'img/team/kohali.jpg'  %}">
+							<ul class="social-links">
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-google-plus"></a></li>
+								<li><a href="#" class="fa fa-facebook"></a></li>
+							</ul>
+						</div>
+						<div class="team-content">
+							<h3 class="title">V Kohali</h3>
+						</div>
+					</div>
+				</div> 
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <div class="card hyderabad">
+		<div class="card-header" id="headingEight">
+		  <h5 class="mb-0 text-center">
+			<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight"><img src="{% static 'img/team-logo/sunriser_logo.png'  %}" alt="" class="img-fluid"> 
+			  Sunrisers Hyderabad <img src="{% static 'img/team-logo/sunriser_logo.png'  %}" alt="" class="img-fluid">
+			</button>
+		  </h5>
+		</div>
+		<div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+		  <div class="card-body">
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="{% static 'img/team/dhavan-sunriser.jpg'  %}">
+							<ul class="social-links">
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-google-plus"></a></li>
+								<li><a href="#" class="fa fa-facebook"></a></li>
+							</ul>
+						</div>
+						<div class="team-content">
+							<h3 class="title">S Dhawan</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="{% static 'img/team/sunriser-1.jpg'  %}">
+							<ul class="social-links">
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-google-plus"></a></li>
+								<li><a href="#" class="fa fa-facebook"></a></li>
+							</ul>
+						</div>
+						<div class="team-content">
+							<h3 class="title">B Kumar</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="our-team">
+						<div class="pic">
+							<img src="{% static 'img/team/sunriser-2.jpg'  %}">
+							<ul class="social-links">
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-google-plus"></a></li>
+								<li><a href="#" class="fa fa-facebook"></a></li>
+							</ul>
+						</div>
+						<div class="team-content">
+							<h3 class="title">D Warner</h3>
+						</div>
+					</div>
+				</div> 
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+</div> 
+{% endblock %}
+
+
